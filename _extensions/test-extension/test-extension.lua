@@ -1,1 +1,1 @@
-/home/albert/projects/quarto/test-extension/test-extension.lua
+../../test-extension.lua
