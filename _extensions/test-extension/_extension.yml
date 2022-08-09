@@ -1,6 +1,6 @@
-name: Test Extension
+name: test-extension
 author: Albert Krewinkel
-version: 0.0.2
+version: 0.0.1
 contributes:
   filters:
     - test-extension.lua
