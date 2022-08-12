@@ -1,0 +1,19 @@
+name: 'Test'
+
+on:
+  push:
+    branch: ['main']
+
+jobs:
+  pandoc:
+    name: 'Install pandoc'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install
+        uses: tarleb/actions/setup@v0
+        with:
+          version: 2.19
+
+      - name: Run pandoc
+        run: |
+          pandoc --version
